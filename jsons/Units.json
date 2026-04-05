@@ -414,7 +414,7 @@
 		"strength": 600,
 		"rangedStrength": 600,
 		"range": 30,
-		"cost": 800,
+		"cost": 200,
 		"requiredTech": "Nuclear Warheads",
 		"uniques": ["Nuclear weapon of Strength [2]","Blast radius [3]", "Consumes [1] [Enriched Uranium]"],
 		"attackSound": "nuke"
