@@ -243,4 +243,12 @@
 		"requiredTech": "Specialised Construction II"
 		"uniques": ["Creates a [Corporation] improvement on a specific tile"],
 	},
+	{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Modernised Construcfion"
+	}
 ]
