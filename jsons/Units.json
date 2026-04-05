@@ -433,6 +433,26 @@
 		"upgradesTo": "Nuclear Submarine"
 	},
 	{
+		"name": "Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 40,
+		"cost": 200,
+		"requiredTech": "Aerodynamics",
+		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units"],
+		"obsoleteTech": "Naval Improvements II",
+		"upgradesTo": "Supercarrier"
+	},
+	{
+		"name": "Supercarrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 6,
+		"strength": 55,
+		"cost": 250,
+		"requiredTech": "Naval Improvements II",
+		"uniques": ["Cannot attack", "Can carry [5] [Aircraft] units"]
+	},
+	{
 		"name": "Nuclear Submarine",
 		"unitType": "Submarine",
 		"movement": 6,
