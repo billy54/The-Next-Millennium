@@ -298,7 +298,7 @@
 		"strength": 14,
 		"rangedStrength": 14,
 		"range": 8,
-		"cost": 150,
+		"cost": 40,
 		"requiredTech": "Aerodynamics",
 		"uniques": ["[-100]% maintenance costs"],
 		"attackSound": "missile"
@@ -416,7 +416,7 @@
 		"range": 30,
 		"cost": 800,
 		"requiredTech": "Nuclear Warheads",
-		"uniques": ["Nuclear weapon of Strength [5]","Blast radius [8]", "Consumes [1] [Enriched Uranium]"],
+		"uniques": ["Nuclear weapon of Strength [2]","Blast radius [3]", "Consumes [1] [Enriched Uranium]"],
 		"attackSound": "nuke"
 	}
 	{
@@ -425,11 +425,24 @@
 		"movement": 5,
 		"strength": 13,
 		"rangedStrength": 16,
-		"cost": 260,
+		"cost": 100,
 		"requiredTech": "Naval Improvements",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
-		"attackSound": "torpedo"
+		"attackSound": "torpedo",
+		"obsoleteTech": "Naval Improvements II",
+		"upgradesTo": "Nuclear Submarine"
 	},
+	{
+		"name": "Nuclear Submarine",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 16,
+		"rangedStrength": 19,
+		"cost": 175,
+		"requiredTech": "Naval Improvements II",
+		"uniques": ["Can carry [2] [Missile] units", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	}
 	{
 		"name": "SS Booster",
 		"unitType": "Civilian",
