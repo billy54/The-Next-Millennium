@@ -249,6 +249,6 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
-		"requiredTech": "Modernised Construcfion"
+		"requiredTech": "Modernised Construction"
 	}
 ]
