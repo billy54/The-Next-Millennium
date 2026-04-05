@@ -13,6 +13,10 @@
         "name": "Ranged Water",
         "movementType": "Water"
     },
+ {
+  "name": "Aircraft Carrier",
+  "movementType": "Water"
+ },
   {
         "name": "Heavy Armor",
         "uniques": ["[+25]% Strength <vs [Rifle] units>","[+50]% Strength <vs [Siege] units> <when attacking>","[-50]% Strength <vs [Fighter] units>"],
