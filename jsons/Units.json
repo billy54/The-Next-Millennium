@@ -289,7 +289,7 @@
 		"requiredTech": "Naval Improvements II",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units","Ranged attacks may be performed over obstacles",
 			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "shipguns"
+		"attackSound": "missile"
 	},
 	{
 		"name": "Guided Missile",
@@ -416,7 +416,7 @@
 		"range": 30,
 		"cost": 200,
 		"requiredTech": "Nuclear Warheads",
-		"uniques": ["Nuclear weapon of Strength [2]","Blast radius [3]", "Consumes [1] [Enriched Uranium]"],
+		"uniques": ["Nuclear weapon of Strength [3]","Blast radius [3]", "Consumes [1] [Enriched Uranium]"],
 		"attackSound": "nuke"
 	}
 	{
