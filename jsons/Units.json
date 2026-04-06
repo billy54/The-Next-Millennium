@@ -436,7 +436,7 @@
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
-		"strength": 40,
+		"strength": 13,
 		"cost": 200,
 		"requiredTech": "Aerodynamics",
 		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units"],
@@ -447,7 +447,7 @@
 		"name": "Supercarrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 6,
-		"strength": 55,
+		"strength": 16,
 		"cost": 250,
 		"requiredTech": "Naval Improvements II",
 		"uniques": ["Cannot attack", "Can carry [5] [Aircraft] units"]
